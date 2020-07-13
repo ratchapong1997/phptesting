@@ -63,7 +63,7 @@ $list_number = $_POST["list_number"];
         <td><strong>ผลลัพธ์</strong></td>
       </tr>
       <tr>
-        <td><textarea style='text-align:center;font-size:16px' name="show" cols="100" rows="30"><?php switch($type_seach){
+        <td><textarea  style='text-align:center;font-size:16px' name="show" cols="100" rows="30" readonly="readonly"><?php switch($type_seach){
 	case 1:
 		echo "List : [".implode(',',$arr )."]";
 		echo "\nSearch : $seach_number\n";
