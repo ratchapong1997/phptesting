@@ -1,7 +1,9 @@
 <?php
 
 $number = 5;
+
 full_pyramid($number);
+full_pyramid2($number);
 
 //แบบที่ 1 ใช้ font color *เพราะลองเว้นวรรคธรรมดาแล้วมีปัญหา
 function full_pyramid($n){
@@ -27,6 +29,8 @@ function full_pyramid($n){
 	echo "<br>";
 	}
 }
+
+echo "<br>";
 
 //แบบที่ 2 ใช้เว้นวรรคธรรมดา
 function full_pyramid2($n){
