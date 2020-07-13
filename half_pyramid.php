@@ -1,6 +1,7 @@
 <?php
 $number = 5;
 half_pyramid($number);
+half_pyramid2($number);
 
 //แบบที่ 1 *ใช้ font color เพราะ ลองเว้นวรรคธรรมดาแล้วมีปัญหา
 function half_pyramid($n){ 
@@ -18,6 +19,8 @@ function half_pyramid($n){
 	echo "<br>";
 	}
 }
+
+echo "<br>";
 
 //แบบที่ 2 ใช้เว้นวรรคธรรมดา
 function half_pyramid2($n){ 
