@@ -3,7 +3,7 @@
 $number = 5;
 
 half_pyramid($number);
-half_pyramid2($number);
+//half_pyramid2($number);
 
 //แบบที่ 1 *ใช้ font color เพราะ ลองเว้นวรรคธรรมดาแล้วมีปัญหา
 function half_pyramid($n){ 
