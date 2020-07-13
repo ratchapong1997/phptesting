@@ -1,5 +1,7 @@
 <?php
+
 $number = 5;
+
 half_pyramid($number);
 half_pyramid2($number);
 
